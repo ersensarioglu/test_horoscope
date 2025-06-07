@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 232180300
+              "duration": 581944500
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 7,
             "name": "I am on the horoscope website's main page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:9"
+              "location": "tests\\steps\\horoscope.steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 859428200
+              "duration": 614468800
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36221900
+              "duration": 41005200
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19062600
+              "duration": 15981600
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 12,
             "name": "I enter a valid date of birth",
             "match": {
-              "location": "tests\\steps\\filler.steps.ts:12"
+              "location": "tests\\steps\\filler.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 10945300
+              "duration": 15326000
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 95522699
+              "duration": 93709800
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 14,
             "name": "I should be taken to the horoscope selection page for \"John\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:36"
+              "location": "tests\\steps\\horoscope.steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 31750500
+              "duration": 25051500
             }
           },
           {
@@ -101,11 +101,11 @@
             "line": 15,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 4234800
+              "duration": 4127700
             }
           },
           {
@@ -113,7 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 253519000
+              "duration": 259646299
             }
           }
         ],
@@ -132,7 +132,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 234754100
+              "duration": 544357500
             }
           },
           {
@@ -141,11 +141,11 @@
             "line": 7,
             "name": "I am on the horoscope website's main page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:9"
+              "location": "tests\\steps\\horoscope.steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 868681999
+              "duration": 511474600
             }
           },
           {
@@ -154,11 +154,11 @@
             "line": 18,
             "name": "I have submitted my details and am on the horoscope page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:20"
+              "location": "tests\\steps\\horoscope.steps.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 228720399
+              "duration": 223262900
             }
           },
           {
@@ -167,11 +167,11 @@
             "line": 19,
             "name": "I click on the card for \"January\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 44831099
+              "duration": 38519099
             }
           },
           {
@@ -180,11 +180,11 @@
             "line": 20,
             "name": "I should see my horoscope for \"January\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 75083400
+              "duration": 78692699
             }
           },
           {
@@ -193,11 +193,11 @@
             "line": 21,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 225435700
+              "duration": 239963499
             }
           },
           {
@@ -206,11 +206,11 @@
             "line": 22,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 2643799
+              "duration": 3219299
             }
           },
           {
@@ -218,7 +218,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 235204300
+              "duration": 264967399
             }
           }
         ],
@@ -237,7 +237,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 271337899
+              "duration": 557260700
             }
           },
           {
@@ -246,11 +246,11 @@
             "line": 7,
             "name": "I am on the horoscope website's main page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:9"
+              "location": "tests\\steps\\horoscope.steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 873486699
+              "duration": 557592300
             }
           },
           {
@@ -259,11 +259,11 @@
             "line": 18,
             "name": "I have submitted my details and am on the horoscope page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:20"
+              "location": "tests\\steps\\horoscope.steps.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 234400400
+              "duration": 217909200
             }
           },
           {
@@ -272,11 +272,11 @@
             "line": 19,
             "name": "I click on the card for \"April\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 97767700
+              "duration": 42550799
             }
           },
           {
@@ -285,11 +285,11 @@
             "line": 20,
             "name": "I should see my horoscope for \"April\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 25944099
+              "duration": 83085100
             }
           },
           {
@@ -298,11 +298,11 @@
             "line": 21,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 92782900
+              "duration": 114828900
             }
           },
           {
@@ -311,11 +311,11 @@
             "line": 22,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 11476300
+              "duration": 13162299
             }
           },
           {
@@ -323,7 +323,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 242235999
+              "duration": 271369600
             }
           }
         ],
@@ -342,7 +342,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 204792400
+              "duration": 541391799
             }
           },
           {
@@ -351,11 +351,11 @@
             "line": 7,
             "name": "I am on the horoscope website's main page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:9"
+              "location": "tests\\steps\\horoscope.steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 802197200
+              "duration": 583872900
             }
           },
           {
@@ -364,11 +364,11 @@
             "line": 18,
             "name": "I have submitted my details and am on the horoscope page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:20"
+              "location": "tests\\steps\\horoscope.steps.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 245082700
+              "duration": 212822399
             }
           },
           {
@@ -377,11 +377,11 @@
             "line": 19,
             "name": "I click on the card for \"July\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 41245600
+              "duration": 34653399
             }
           },
           {
@@ -390,11 +390,11 @@
             "line": 20,
             "name": "I should see my horoscope for \"July\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 2976263399
+              "duration": 2981565800
             }
           },
           {
@@ -403,11 +403,11 @@
             "line": 21,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 37104199
+              "duration": 32729400
             }
           },
           {
@@ -416,11 +416,11 @@
             "line": 22,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 2386400
+              "duration": 2161699
             }
           },
           {
@@ -428,7 +428,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 213509700
+              "duration": 268466999
             }
           }
         ],
@@ -447,7 +447,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 230139299
+              "duration": 572292899
             }
           },
           {
@@ -456,11 +456,11 @@
             "line": 7,
             "name": "I am on the horoscope website's main page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:9"
+              "location": "tests\\steps\\horoscope.steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 834803500
+              "duration": 576116200
             }
           },
           {
@@ -469,11 +469,11 @@
             "line": 18,
             "name": "I have submitted my details and am on the horoscope page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:20"
+              "location": "tests\\steps\\horoscope.steps.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 229789800
+              "duration": 221305300
             }
           },
           {
@@ -482,11 +482,11 @@
             "line": 19,
             "name": "I click on the card for \"October\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 40738600
+              "duration": 27104200
             }
           },
           {
@@ -495,11 +495,11 @@
             "line": 20,
             "name": "I should see my horoscope for \"October\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 154597800
+              "duration": 171680099
             }
           },
           {
@@ -508,11 +508,11 @@
             "line": 21,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 27197500
+              "duration": 13947299
             }
           },
           {
@@ -521,11 +521,11 @@
             "line": 22,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 2066500
+              "duration": 1586799
             }
           },
           {
@@ -533,7 +533,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 244054500
+              "duration": 271765499
             }
           }
         ],
@@ -552,7 +552,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 225331100
+              "duration": 563788199
             }
           },
           {
@@ -561,11 +561,11 @@
             "line": 7,
             "name": "I am on the horoscope website's main page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:9"
+              "location": "tests\\steps\\horoscope.steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 845420500
+              "duration": 526964799
             }
           },
           {
@@ -574,11 +574,11 @@
             "line": 18,
             "name": "I have submitted my details and am on the horoscope page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:20"
+              "location": "tests\\steps\\horoscope.steps.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 220931300
+              "duration": 226074899
             }
           },
           {
@@ -587,11 +587,11 @@
             "line": 19,
             "name": "I click on the card for \"December\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 44149499
+              "duration": 42082800
             }
           },
           {
@@ -600,11 +600,11 @@
             "line": 20,
             "name": "I should see my horoscope for \"December\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 308670200
+              "duration": 318740900
             }
           },
           {
@@ -613,11 +613,11 @@
             "line": 21,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 32280500
+              "duration": 50287399
             }
           },
           {
@@ -626,11 +626,11 @@
             "line": 22,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 4021899
+              "duration": 1841300
             }
           },
           {
@@ -638,7 +638,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 253078100
+              "duration": 267619500
             }
           }
         ],
@@ -657,7 +657,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 239585900
+              "duration": 530455000
             }
           },
           {
@@ -666,11 +666,11 @@
             "line": 7,
             "name": "I am on the horoscope website's main page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:9"
+              "location": "tests\\steps\\horoscope.steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 816849900
+              "duration": 624880099
             }
           },
           {
@@ -679,11 +679,11 @@
             "line": 33,
             "name": "I have submitted my details and am on the horoscope page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:20"
+              "location": "tests\\steps\\horoscope.steps.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 223172999
+              "duration": 219457999
             }
           },
           {
@@ -692,11 +692,11 @@
             "line": 34,
             "name": "I click on the card for \"January\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 40612699
+              "duration": 42805500
             }
           },
           {
@@ -705,11 +705,11 @@
             "line": 35,
             "name": "I should see my horoscope for \"January\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 69532100
+              "duration": 66369299
             }
           },
           {
@@ -718,11 +718,11 @@
             "line": 36,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 208472700
+              "duration": 220549000
             }
           },
           {
@@ -731,11 +731,11 @@
             "line": 37,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 2512399
+              "duration": 2577000
             }
           },
           {
@@ -744,11 +744,11 @@
             "line": 38,
             "name": "I click on the card for \"April\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 37455999
+              "duration": 39817100
             }
           },
           {
@@ -757,11 +757,11 @@
             "line": 39,
             "name": "I should see my horoscope for \"April\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 77223699
+              "duration": 79770700
             }
           },
           {
@@ -770,11 +770,11 @@
             "line": 40,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 101496999
+              "duration": 99970699
             }
           },
           {
@@ -783,11 +783,11 @@
             "line": 41,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 8251900
+              "duration": 9029099
             }
           },
           {
@@ -796,11 +796,11 @@
             "line": 42,
             "name": "I click on the card for \"July\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 44789099
+              "duration": 41417499
             }
           },
           {
@@ -809,11 +809,11 @@
             "line": 43,
             "name": "I should see my horoscope for \"July\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 2972824899
+              "duration": 2982448399
             }
           },
           {
@@ -822,11 +822,11 @@
             "line": 44,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 28342899
+              "duration": 32361699
             }
           },
           {
@@ -835,11 +835,11 @@
             "line": 45,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 1936900
+              "duration": 1883300
             }
           },
           {
@@ -848,11 +848,11 @@
             "line": 46,
             "name": "I click on the card for \"October\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 37862300
+              "duration": 37939899
             }
           },
           {
@@ -861,11 +861,11 @@
             "line": 47,
             "name": "I should see my horoscope for \"October\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 155261000
+              "duration": 178519099
             }
           },
           {
@@ -874,11 +874,11 @@
             "line": 48,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 15453600
+              "duration": 20471699
             }
           },
           {
@@ -887,11 +887,11 @@
             "line": 49,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 1938699
+              "duration": 1955000
             }
           },
           {
@@ -900,11 +900,11 @@
             "line": 50,
             "name": "I click on the card for \"December\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 40310100
+              "duration": 39330399
             }
           },
           {
@@ -913,11 +913,11 @@
             "line": 51,
             "name": "I should see my horoscope for \"December\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 287856800
+              "duration": 326844000
             }
           },
           {
@@ -926,11 +926,11 @@
             "line": 52,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 36790300
+              "duration": 49219499
             }
           },
           {
@@ -939,11 +939,11 @@
             "line": 53,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 3697700
+              "duration": 2225600
             }
           },
           {
@@ -952,11 +952,11 @@
             "line": 54,
             "name": "I click on the card for \"August\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 16161100
+              "duration": 20265699
             }
           },
           {
@@ -965,11 +965,11 @@
             "line": 55,
             "name": "I should see my horoscope for \"August\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 3004133799
+              "duration": 2996735800
             }
           },
           {
@@ -978,11 +978,11 @@
             "line": 56,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 31921900
+              "duration": 23217300
             }
           },
           {
@@ -991,11 +991,11 @@
             "line": 57,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 2137399
+              "duration": 1755300
             }
           },
           {
@@ -1004,11 +1004,11 @@
             "line": 58,
             "name": "I click on the card for \"February\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 36787099
+              "duration": 38875099
             }
           },
           {
@@ -1017,11 +1017,11 @@
             "line": 59,
             "name": "I should see my horoscope for \"February\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 2980333600
+              "duration": 2992572000
             }
           },
           {
@@ -1030,11 +1030,11 @@
             "line": 60,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 23530099
+              "duration": 25377000
             }
           },
           {
@@ -1043,11 +1043,11 @@
             "line": 61,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 3175899
+              "duration": 2248100
             }
           },
           {
@@ -1056,11 +1056,11 @@
             "line": 62,
             "name": "I click on the card for \"May\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 37156600
+              "duration": 37906300
             }
           },
           {
@@ -1069,11 +1069,11 @@
             "line": 63,
             "name": "I should see my horoscope for \"May\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 96868599
+              "duration": 105190400
             }
           },
           {
@@ -1082,11 +1082,11 @@
             "line": 64,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 99884600
+              "duration": 108021199
             }
           },
           {
@@ -1095,11 +1095,11 @@
             "line": 65,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 25816399
+              "duration": 21250400
             }
           },
           {
@@ -1108,11 +1108,11 @@
             "line": 66,
             "name": "I click on the card for \"November\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 49268400
+              "duration": 17274300
             }
           },
           {
@@ -1121,11 +1121,11 @@
             "line": 67,
             "name": "I should see my horoscope for \"November\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 136935199
+              "duration": 168138599
             }
           },
           {
@@ -1134,11 +1134,11 @@
             "line": 68,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 17641700
+              "duration": 21380600
             }
           },
           {
@@ -1147,11 +1147,11 @@
             "line": 69,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 2849799
+              "duration": 1356299
             }
           },
           {
@@ -1160,11 +1160,11 @@
             "line": 70,
             "name": "I click on the card for \"September\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 35972700
+              "duration": 37494900
             }
           },
           {
@@ -1173,11 +1173,11 @@
             "line": 71,
             "name": "I should see my horoscope for \"September\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 2993389500
+              "duration": 2975797500
             }
           },
           {
@@ -1186,11 +1186,11 @@
             "line": 72,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 36113000
+              "duration": 29641599
             }
           },
           {
@@ -1199,11 +1199,11 @@
             "line": 73,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 2449199
+              "duration": 1652500
             }
           },
           {
@@ -1212,11 +1212,11 @@
             "line": 74,
             "name": "I click on the card for \"June\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 40943100
+              "duration": 38090399
             }
           },
           {
@@ -1225,11 +1225,11 @@
             "line": 75,
             "name": "I should see my horoscope for \"June\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 98288799
+              "duration": 96622800
             }
           },
           {
@@ -1238,11 +1238,11 @@
             "line": 76,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 91913400
+              "duration": 87784899
             }
           },
           {
@@ -1251,11 +1251,11 @@
             "line": 77,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 25407600
+              "duration": 24943299
             }
           },
           {
@@ -1264,11 +1264,11 @@
             "line": 78,
             "name": "I click on the card for \"March\"",
             "match": {
-              "location": "tests\\steps\\clicker.steps.ts:12"
+              "location": "tests\\steps\\clicker.steps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 38676999
+              "duration": 42658100
             }
           },
           {
@@ -1277,11 +1277,11 @@
             "line": 79,
             "name": "I should see my horoscope for \"March\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 2979456399
+              "duration": 2985991100
             }
           },
           {
@@ -1290,11 +1290,11 @@
             "line": 80,
             "name": "I should close the horoscope result",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:54"
+              "location": "tests\\steps\\horoscope.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 24221699
+              "duration": 28998699
             }
           },
           {
@@ -1303,11 +1303,11 @@
             "line": 81,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:42"
+              "location": "tests\\steps\\horoscope.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 2070499
+              "duration": 2549100
             }
           },
           {
@@ -1315,7 +1315,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 247635699
+              "duration": 268485500
             }
           }
         ],
