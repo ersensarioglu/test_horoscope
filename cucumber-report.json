@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 335931200
+              "duration": 238225500
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 7,
             "name": "I am on the horoscope website's main page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:22"
+              "location": "tests\\steps\\horoscope.steps.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 2003401699
+              "duration": 1832760100
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 10,
             "name": "I fill in \"John\" for \"First Name\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:39"
+              "location": "tests\\steps\\horoscope.steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 1050098100
+              "duration": 1045463099
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 11,
             "name": "I fill in \"Doe\" for \"Surname\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:39"
+              "location": "tests\\steps\\horoscope.steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 1023120200
+              "duration": 1030074300
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 12,
             "name": "I enter a valid date of birth",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:44"
+              "location": "tests\\steps\\horoscope.steps.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 1018075300
+              "duration": 1024466700
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 13,
             "name": "I click the \"Submit\" button",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:48"
+              "location": "tests\\steps\\horoscope.steps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 1104470400
+              "duration": 1105010899
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 14,
             "name": "I should be taken to the horoscope selection page for \"John\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:59"
+              "location": "tests\\steps\\horoscope.steps.ts:46"
             },
             "result": {
               "status": "passed",
-              "duration": 24640100
+              "duration": 23742299
             }
           },
           {
@@ -101,11 +101,11 @@
             "line": 15,
             "name": "I should see 12 cards for each month of the year",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:63"
+              "location": "tests\\steps\\horoscope.steps.ts:50"
             },
             "result": {
               "status": "passed",
-              "duration": 5888600
+              "duration": 4769500
             }
           },
           {
@@ -113,165 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 284835600
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "horoscope-website-functionality;clicking-a-month-reveals-the-horoscope",
-        "keyword": "Scenario Outline",
-        "line": 24,
-        "name": "Clicking a month reveals the horoscope",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 289678099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "I am on the horoscope website's main page",
-            "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1863291699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 18,
-            "name": "I have submitted my details and am on the horoscope page",
-            "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5284942999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 19,
-            "name": "I click on the card for \"January\"",
-            "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:52"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1031569199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 20,
-            "name": "I should see my horoscope for \"January\"",
-            "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:68"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2000474099
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 245425500
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "horoscope-website-functionality;clicking-a-month-reveals-the-horoscope",
-        "keyword": "Scenario Outline",
-        "line": 25,
-        "name": "Clicking a month reveals the horoscope",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 261331700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "I am on the horoscope website's main page",
-            "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1896989000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 18,
-            "name": "I have submitted my details and am on the horoscope page",
-            "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5250954699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 19,
-            "name": "I click on the card for \"April\"",
-            "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:52"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1027521000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 20,
-            "name": "I should see my horoscope for \"April\"",
-            "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:68"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2003621500
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 254558000
+              "duration": 230554399
             }
           }
         ],
@@ -290,7 +132,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 287202300
+              "duration": 238483000
             }
           },
           {
@@ -299,11 +141,11 @@
             "line": 7,
             "name": "I am on the horoscope website's main page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:22"
+              "location": "tests\\steps\\horoscope.steps.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 1860871000
+              "duration": 1730445799
             }
           },
           {
@@ -312,37 +154,63 @@
             "line": 18,
             "name": "I have submitted my details and am on the horoscope page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:28"
+              "location": "tests\\steps\\horoscope.steps.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 5262145700
+              "duration": 5273935900
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 19,
-            "name": "I click on the card for \"July\"",
+            "name": "I click on the card for \"January\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:52"
+              "location": "tests\\steps\\horoscope.steps.ts:39"
             },
             "result": {
               "status": "passed",
-              "duration": 1030665399
+              "duration": 1022051099
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 20,
-            "name": "I should see my horoscope for \"July\"",
+            "name": "I should see my horoscope for \"January\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:68"
+              "location": "tests\\steps\\horoscope.steps.ts:55"
             },
             "result": {
               "status": "passed",
-              "duration": 1996515200
+              "duration": 2016066900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1037975599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3342799
             }
           },
           {
@@ -350,7 +218,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 251520700
+              "duration": 218888800
             }
           }
         ],
@@ -369,7 +237,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 256298299
+              "duration": 234352199
             }
           },
           {
@@ -378,11 +246,11 @@
             "line": 7,
             "name": "I am on the horoscope website's main page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:22"
+              "location": "tests\\steps\\horoscope.steps.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 1888797099
+              "duration": 1813523700
             }
           },
           {
@@ -391,37 +259,63 @@
             "line": 18,
             "name": "I have submitted my details and am on the horoscope page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:28"
+              "location": "tests\\steps\\horoscope.steps.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 5263595600
+              "duration": 5248928800
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 19,
-            "name": "I click on the card for \"October\"",
+            "name": "I click on the card for \"April\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:52"
+              "location": "tests\\steps\\horoscope.steps.ts:39"
             },
             "result": {
               "status": "passed",
-              "duration": 1028013500
+              "duration": 1027829600
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 20,
-            "name": "I should see my horoscope for \"October\"",
+            "name": "I should see my horoscope for \"April\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:68"
+              "location": "tests\\steps\\horoscope.steps.ts:55"
             },
             "result": {
               "status": "passed",
-              "duration": 38581799
+              "duration": 2002320499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1109861199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3144700
             }
           },
           {
@@ -429,7 +323,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 263863700
+              "duration": 223831500
             }
           }
         ],
@@ -448,7 +342,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 256151799
+              "duration": 218061000
             }
           },
           {
@@ -457,11 +351,11 @@
             "line": 7,
             "name": "I am on the horoscope website's main page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:22"
+              "location": "tests\\steps\\horoscope.steps.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 1870493900
+              "duration": 1798108499
             }
           },
           {
@@ -470,11 +364,221 @@
             "line": 18,
             "name": "I have submitted my details and am on the horoscope page",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:28"
+              "location": "tests\\steps\\horoscope.steps.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 5248454200
+              "duration": 5237087899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on the card for \"July\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1027066399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see my horoscope for \"July\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1996452799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1036810700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2678399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 214747600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "horoscope-website-functionality;clicking-a-month-reveals-the-horoscope",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Clicking a month reveals the horoscope",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 258722500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the horoscope website's main page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1738706100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I have submitted my details and am on the horoscope page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5251299800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on the card for \"October\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1027160200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see my horoscope for \"October\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38135900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10974000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1994599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 207622400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "horoscope-website-functionality;clicking-a-month-reveals-the-horoscope",
+        "keyword": "Scenario Outline",
+        "line": 30,
+        "name": "Clicking a month reveals the horoscope",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 221213400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the horoscope website's main page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1828516299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I have submitted my details and am on the horoscope page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5263912199
             }
           },
           {
@@ -483,11 +587,11 @@
             "line": 19,
             "name": "I click on the card for \"December\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:52"
+              "location": "tests\\steps\\horoscope.steps.ts:39"
             },
             "result": {
               "status": "passed",
-              "duration": 1028883800
+              "duration": 1028603799
             }
           },
           {
@@ -496,11 +600,37 @@
             "line": 20,
             "name": "I should see my horoscope for \"December\"",
             "match": {
-              "location": "tests\\steps\\horoscope.steps.ts:68"
+              "location": "tests\\steps\\horoscope.steps.ts:55"
             },
             "result": {
               "status": "passed",
-              "duration": 37296999
+              "duration": 36365799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35275500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3234000
             }
           },
           {
@@ -508,7 +638,684 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 315745300
+              "duration": 214193200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "horoscope-website-functionality;clicking-all-monts-reveals-all-horoscopes",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Clicking all monts reveals all horoscopes",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 247674899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the horoscope website's main page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1758640299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I have submitted my details and am on the horoscope page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5262249300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I click on the card for \"January\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1028011700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I should see my horoscope for \"January\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1997815200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1034261500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2743499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I click on the card for \"April\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1025481100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I should see my horoscope for \"April\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1998855100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1113988700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2861900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I click on the card for \"July\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1025675499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I should see my horoscope for \"July\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1993018500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1041290500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3918799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "I click on the card for \"October\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1034629800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I should see my horoscope for \"October\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38196899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11212799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2929199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I click on the card for \"December\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1042379899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I should see my horoscope for \"December\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36502999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36938399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2815799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I click on the card for \"August\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1031700200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "I should see my horoscope for \"August\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1995611100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1037845600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3622300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "I click on the card for \"February\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1037404000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I should see my horoscope for \"February\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1976816299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1040857199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3296100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "I click on the card for \"May\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1025471799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "I should see my horoscope for \"May\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1998614700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1113986699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3342500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click on the card for \"November\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1037699600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I should see my horoscope for \"November\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37831600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12249300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6843999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "I click on the card for \"September\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1037526900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "I should see my horoscope for \"September\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1978433799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1039263299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3146399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I click on the card for \"June\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1029283800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "I should see my horoscope for \"June\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1991131600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1103506600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2960800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 78,
+            "name": "I click on the card for \"March\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1024908100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "I should see my horoscope for \"March\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1996683900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "I should close the horoscope result",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1036482499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2751700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 286225500
             }
           }
         ],
