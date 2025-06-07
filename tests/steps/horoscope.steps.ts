@@ -1,4 +1,4 @@
-import { Given, When, Then } from '@cucumber/cucumber';
+import { Given, Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
 import type { CustomWorld } from './world';
 
@@ -20,26 +20,6 @@ Given('I have submitted my details and am on the horoscope page', { timeout: 600
     await this.page.fill('input[type="date"]', '1995-05-15');
     await this.page.click('button[type="submit"]');
     await expect(this.page.locator('h1')).toContainText('Your Year Ahead, Jane');
-});
-
-
-When('I fill in {string} for {string}', async function (this: CustomWorld, value: string, fieldName: string) {
-    // Using a more robust selector based on placeholder text
-    await this.page.fill(`input[placeholder="${fieldName}"]`, value);
-});
-
-When('I enter a valid date of birth', async function (this: CustomWorld) {
-    await this.page.fill('input[type="date"]', '1990-01-01');
-});
-
-When('I click the {string} button', async function (this: CustomWorld, buttonText: string) {
-    await this.page.click(`button:has-text("${buttonText}")`);
-});
-
-When('I click on the card for {string}', async function (this: CustomWorld, month: string) {
-    // Listen for a new page before clicking
-    this.newPagePromise = this.context.waitForEvent('page', { timeout: 3000 }).catch(() => null);
-    await this.page.click(`div.month-card[data-month="${month}"]`);
 });
 
 
@@ -65,10 +45,11 @@ Then('I should see my horoscope for {string}', async function (this: CustomWorld
         await newPage.waitForLoadState();
         // Wait for either newtab-body or newwindow-body
         const found = await Promise.race([
-            newPage.waitForSelector(`p#newtab-body:has-text("${expectedHoroscopeText}")`, { state: 'visible', timeout: 2000 }).then(() => true).catch(() => false),
-            newPage.waitForSelector(`p#newwindow-body:has-text("${expectedHoroscopeText}")`, { state: 'visible', timeout: 2000 }).then(() => true).catch(() => false)
+            newPage.waitForSelector(`p#newtab-body:has-text("${expectedHoroscopeText}")`, { state: 'visible', timeout: 2000 }).then(() => 'new-tab').catch(() => null),
+            newPage.waitForSelector(`p#newwindow-body:has-text("${expectedHoroscopeText}")`, { state: 'visible', timeout: 2000 }).then(() => 'new-window').catch(() => null)
         ]);
-        expect(found).toBe(true);
+        expect(!!found).toBe(true);
+        console.log(`[Race] ${found} shown for month: ${month}`);
         await newPage.close();
         return;
     }
