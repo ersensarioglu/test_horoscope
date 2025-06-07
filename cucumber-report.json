@@ -1,0 +1,526 @@
+[
+  {
+    "description": "  As a user\n  I want to enter my details and get my horoscope for each month\n  So that I can see what the future holds for me",
+    "elements": [
+      {
+        "description": "",
+        "id": "horoscope-website-functionality;submitting-personal-details",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Submitting personal details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 335931200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the horoscope website's main page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2003401699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I fill in \"John\" for \"First Name\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1050098100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I fill in \"Doe\" for \"Surname\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1023120200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter a valid date of birth",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1018075300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the \"Submit\" button",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1104470400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be taken to the horoscope selection page for \"John\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24640100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I should see 12 cards for each month of the year",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5888600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 284835600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "horoscope-website-functionality;clicking-a-month-reveals-the-horoscope",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "Clicking a month reveals the horoscope",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 289678099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the horoscope website's main page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1863291699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I have submitted my details and am on the horoscope page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5284942999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on the card for \"January\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1031569199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see my horoscope for \"January\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000474099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 245425500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "horoscope-website-functionality;clicking-a-month-reveals-the-horoscope",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Clicking a month reveals the horoscope",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 261331700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the horoscope website's main page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1896989000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I have submitted my details and am on the horoscope page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5250954699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on the card for \"April\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1027521000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see my horoscope for \"April\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2003621500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 254558000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "horoscope-website-functionality;clicking-a-month-reveals-the-horoscope",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Clicking a month reveals the horoscope",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 287202300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the horoscope website's main page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1860871000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I have submitted my details and am on the horoscope page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5262145700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on the card for \"July\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1030665399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see my horoscope for \"July\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1996515200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 251520700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "horoscope-website-functionality;clicking-a-month-reveals-the-horoscope",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Clicking a month reveals the horoscope",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 256298299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the horoscope website's main page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1888797099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I have submitted my details and am on the horoscope page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5263595600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on the card for \"October\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1028013500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see my horoscope for \"October\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38581799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 263863700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "horoscope-website-functionality;clicking-a-month-reveals-the-horoscope",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Clicking a month reveals the horoscope",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 256151799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the horoscope website's main page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1870493900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I have submitted my details and am on the horoscope page",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5248454200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on the card for \"December\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1028883800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see my horoscope for \"December\"",
+            "match": {
+              "location": "tests\\steps\\horoscope.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37296999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 315745300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "horoscope-website-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Horoscope Website Functionality",
+    "tags": [],
+    "uri": "tests\\features\\horoscope.feature"
+  }
+]

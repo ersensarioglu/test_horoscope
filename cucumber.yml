@@ -1,0 +1,19 @@
+default:
+  paths:
+    - tests/features/*.feature
+  require:
+    - tests/steps/*.ts
+    - tests/steps/*.js
+  requireModule:
+    - ts-node/register
+  format:
+    - progress-bar
+    - json:./cucumber-report.json
+    - html:cucumber-report.html
+    - summary
+  formatOptions:
+    colorsEnabled: true
+    snippetInterface: async-wait
+  parallel: 1
+  retry: 0
+  tags: ""

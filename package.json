@@ -1,0 +1,27 @@
+{
+  "name": "test_horoscope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "cucumber": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ersensarioglu/test_horoscope.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ersensarioglu/test_horoscope/issues"
+  },
+  "homepage": "https://github.com/ersensarioglu/test_horoscope#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.30",
+    "ts-node": "^10.9.2"
+  }
+}
