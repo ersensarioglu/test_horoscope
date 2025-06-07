@@ -5,8 +5,8 @@
         "requireModule": ["ts-node/register"],
         "format": [
             "progress-bar",
-            "json:./cucumber-report.json",
-            "html:cucumber-report.html",
+            "json:./reports/cucumber-report.json",
+            "html:./reports/cucumber-report.html",
             "summary"
         ],
         "formatOptions": {

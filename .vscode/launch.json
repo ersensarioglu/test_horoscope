@@ -17,9 +17,9 @@
                 "--format",
                 "progress-bar",
                 "--format",
-                "json:./cucumber-report.json",
+                "json:./reports/cucumber-report.json",
                 "--format",
-                "html:cucumber-report.html",
+                "html:./reports/cucumber-report.html",
                 "tests/features/"
             ],
             "cwd": "${workspaceFolder}",
