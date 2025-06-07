@@ -1,10 +1,16 @@
 import { When } from '@cucumber/cucumber';
 import type { CustomWorld } from './world';
+import { Filler } from '../support/filler.functions';
+import { Framework } from '../support/framework.functions';
 
 When('I fill in {string} for {string}', async function (this: CustomWorld, value: string, fieldName: string) {
-    await this.page.fill(`input[placeholder="${fieldName}"]`, value);
+    const framework = new Framework(this.page, this.context);
+    const filler = new Filler(framework);
+    await filler.fillField(fieldName, value);
 });
 
 When('I enter a valid date of birth', async function (this: CustomWorld) {
-    await this.page.fill('input[type="date"]', '1990-01-01');
+    const framework = new Framework(this.page, this.context);
+    const filler = new Filler(framework);
+    await filler.fillDateOfBirth();
 });

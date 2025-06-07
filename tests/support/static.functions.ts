@@ -1,0 +1,20 @@
+export const loc = {
+    button: (text: string) => `button:has-text("${text}")`,
+    monthCard: (month: string) => `div.month-card[data-month="${month}"]`,
+    inputPlaceholder: (fieldName: string) => `input[placeholder="${fieldName}"]`,
+    inputDate: () => 'input[type="date"]',
+    inputFirstName: () => 'input[name="first_name"]',
+    inputSurname: () => 'input[name="surname"]',
+    submitButton: () => 'button[type="submit"]',
+    monthCards: () => '.month-card',
+    newTabBody: (text: string) => `p#newtab-body:has-text("${text}")`,
+    newWindowBody: (text: string) => `p#newwindow-body:has-text("${text}")`,
+    expandBody: (text?: string) => text ? `p#expand-body:has-text("${text}")` : 'p#expand-body',
+    refreshBody: (text: string) => `p#refresh-body:has-text("${text}")`,
+    modalBody: (text: string) => `p#modal-body:has-text("${text}")`,
+    closeModal: () => '#close-modal',
+    backLink: () => 'a[href="/horoscope"]',
+    closeWindowButton: () => 'button[onclick="window.close()"]',
+    h1: () => 'h1',
+    parent: () => '..'
+};

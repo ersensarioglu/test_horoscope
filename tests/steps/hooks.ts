@@ -3,7 +3,7 @@ import { chromium } from '@playwright/test';
 import type { CustomWorld } from './world';
 
 Before(async function (this: CustomWorld) {
-    this.browser = await chromium.launch({ headless: false, slowMo: 1000 });
+    this.browser = await chromium.launch({ headless: false });
 });
 
 After(async function (this: CustomWorld) {
