@@ -31,11 +31,14 @@ export class Framework {
         return this.page.locator(selector).count();
     }
 
-    async waitForPageOrChange(selector: string): Promise<Page | null> {
+    async waitForPageOrChange(selectors: string[]): Promise<Page | null> {
         if (!this.context) throw new Error('Context is required for waitForPageOrChange');
+        const selectorPromises = selectors.map(sel =>
+            this.page.waitForSelector(sel, { timeout: 3000 }).catch(() => null)
+        );
         const result = await Promise.race([
             this.context.waitForEvent('page', { timeout: 3000 }).catch(() => null),
-            this.page.waitForSelector(selector, { timeout: 3000 }).catch(() => null)
+            ...selectorPromises
         ]);
         if (result && typeof result === 'object' && 'addInitScript' in result) {
             return result as Page;
